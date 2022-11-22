@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Home Page</title>
+    <script src="/signup.js" defer></script>
+    <link rel="stylesheet" href="./signup.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome To Sign Up Page!</h1>
+      <p>Please enter your details in the required boxes</p>
+    </header>
+    <form id="signup-form" action="./welcome.html" method="get">
+      <label for="firstname">First Name: </label>
+      <input id="firstname" type="text" placeholder="Jane" name="firstname" />
+      <label for="lastname">Last Name: </label>
+      <input id="lastname" type="text=" placeholder="Doe" name="lastname" />
+      <label for="username">Username: </label>
+      <input id="username" type="text" placeholder="Jane123" name="username" />
+      <label for="avatarimageurl"> Avatar Image Url:</label>
+      <input
+        id="avatarimageurl"
+        type="text"
+        placeholder="Insert URL Here"
+        name="avatarimageurl"
+      />
+      <div class="button-group">
+        <button id="submit" type="submit">Submit</button>
+        <button id="reset" type="reset">Reset</button>
+      </div>
+    </form>
+  </body>
+</html>

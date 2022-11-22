@@ -1,0 +1,46 @@
+.green-border {
+  border: 3px solid green;
+}
+
+.red-border {
+  border: 3px solid red;
+}
+
+body {
+  background-color: aquamarine;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+input {
+  width: 100%;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10%;
+}
+
+#submit {
+  width: 40%;
+  background-color: green;
+  padding: 14px 20px;
+  margin: 5px 15px;
+  border-radius: 5%;
+  border: none;
+}
+
+#reset {
+  width: 20%;
+  /* display: block; */
+  background-color: rebeccapurple;
+  padding: 10px 15px;
+  margin: 5px 15px;
+  border: none;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+}
